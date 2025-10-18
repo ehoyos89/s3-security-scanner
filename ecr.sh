@@ -2,11 +2,11 @@
 # deploy.sh
 
 # Variables
-AWS_REGION="us-east-1"
-AWS_ACCOUNT_ID="766557581633"
-ECR_REPO_NAME="s3-security-scanner"
-LAMBDA_FUNCTION_NAME="s3-security-scanner"
-IMAGE_TAG="latest"
+AWS_REGION=""
+AWS_ACCOUNT_ID=""
+ECR_REPO_NAME=""
+LAMBDA_FUNCTION_NAME=""
+IMAGE_TAG=""
 
 # Construir imagen
 docker build -t ${ECR_REPO_NAME}:${IMAGE_TAG} .
