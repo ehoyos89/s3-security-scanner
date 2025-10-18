@@ -101,3 +101,6 @@ Thumbs.db
 credentials.json
 secrets/
 *.secret
+
+# scripts compilados
+ecr.sh
